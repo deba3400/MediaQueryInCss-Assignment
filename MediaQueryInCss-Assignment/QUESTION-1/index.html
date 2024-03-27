@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .container{
+            width:100%;
+            height:70px;
+            background-color: #ccc;
+            text-align: center;
+        }
+        .container h2{
+            margin-top: 20px;
+            /* border:1px solid black; */
+            padding-top: 20px;;
+            
+        }
+        @media screen and (min-width:200px)and (max-width:567px){
+            .container{
+                background-color: blue;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container"><h2>Responsive Header</h2></div>
+    <div class="main">
+        <div class="content">
+            <p>Main content</p>
+        </div>
+        <section class="footer">
+            <p>Footer</p>
+        </section>
+    </div>
+</body>
+</html>
